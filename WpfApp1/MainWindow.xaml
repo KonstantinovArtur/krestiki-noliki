@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="_4" Content="" Margin="154,135,566,230" Click="prosto_click" IsEnabled="False"/>
+        <Button x:Name="_5" Content="" Margin="239,135,481,230" Click="prosto_click" IsEnabled="False"/>
+        <Button x:Name="_6" Content="" Margin="324,135,396,230" Click="prosto_click" IsEnabled="False"/>
+        <Button x:Name="_7" Content="" Margin="154,209,566,156" Click="prosto_click" IsEnabled="False"/>
+        <Button x:Name="_8" Content="" Margin="239,209,481,156" Click="prosto_click" IsEnabled="False"/>
+        <Button x:Name="_9" Margin="324,209,396,156" Click="prosto_click" IsEnabled="False"/>
+        <Button x:Name="_1" Content="" Margin="154,61,566,304" Click="prosto_click" IsEnabled="False"/>
+        <Button x:Name="_2" Content="" Margin="239,61,481,304" Click="prosto_click" IsEnabled="False"/>
+        <Button x:Name="_3" Content="" Margin="324,61,396,304" Click="prosto_click" IsEnabled="False"/>
+        <Button x:Name="win" Content="" HorizontalAlignment="Left" Margin="202,10,0,0" VerticalAlignment="Top" Height="26" Width="152" IsEnabled="False"/>
+        <Button x:Name="n" Content="Начать игру" HorizontalAlignment="Left" Margin="213,296,0,0" VerticalAlignment="Top" Height="61" Width="130" Click="Button_Click_1"/>
+    </Grid>
+</Window>
